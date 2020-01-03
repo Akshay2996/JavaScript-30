@@ -4,4 +4,6 @@ This challenge is based purely on javascript and will improve the concepts of ja
 
 ## ToDo
 
-[ ] JS + CSS Clock
+- [ ] JS + CSS Clock
+- [ ] Playing with CSS and JS Variable
+- [ ] Array Cardio Day 1
