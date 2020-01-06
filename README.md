@@ -5,7 +5,7 @@ This challenge is based purely on javascript and will improve the concepts of ja
 ## ToDo
 
 - [ ] 01 - JS Drum Kit
-- [ ] 02 - JS + CSS Clock
+- [x] 02 - JS + CSS Clock
 - [ ] 03 - CSS Variable
 - [ ] 04 - Array Cardio Day 1
 - [ ] 05 - Flex Panel Gallery
