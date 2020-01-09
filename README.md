@@ -1,4 +1,5 @@
-# JavaScript 30 Challenge by @Wesbos
+# [JavaScript30](https://github.com/wesbos/JavaScript30) Challenge
+#### Made By [@wesbos](https://github.com/wesbos)
 
 This challenge is based purely on javascript and will improve the concepts of javascript by making 30 mini-projects in 30 days.
 
