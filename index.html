@@ -2,65 +2,108 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Console Tricks!</title>
+    <title>Hold Shift to Check Multiple Checkboxes</title>
   </head>
   <body>
-    <p onClick="makeGreen()">×BREAK×DOWN×</p>
-
-    <script>
-      const dogs = [{ name: "Snickers", age: 2 }, { name: "hugo", age: 8 }];
-
-      function makeGreen() {
-        const p = document.querySelector("p");
-        p.style.color = "#BADA55";
-        p.style.fontSize = "50px";
+    <style>
+      html {
+        font-family: sans-serif;
+        background: #ffc600;
       }
 
-      // Regular
-      console.log("hello");
+      .inbox {
+        max-width: 400px;
+        margin: 50px auto;
+        background: white;
+        border-radius: 5px;
+        box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.1);
+      }
 
-      // Interpolated
-      console.log("I am a %s string", "interpolated");
+      .item {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #f1f1f1;
+      }
 
-      // Styled
-      console.log(
-        "%c I am some style text",
-        "font-size:50px; background-color: red; text-shadow: 4px 4px blue"
-      );
+      .item:last-child {
+        border-bottom: 0;
+      }
 
-      // warning!
-      console.warn("Warning Displayed");
+      input:checked + p {
+        background: #f9f9f9;
+        text-decoration: line-through;
+      }
 
-      // Error :|
-      console.error("Error!");
+      input[type="checkbox"] {
+        margin: 20px;
+      }
 
-      // Info
-      console.info("It's for stating an Information");
+      p {
+        margin: 0;
+        padding: 20px;
+        transition: background 0.2s;
+        flex: 1;
+        font-family: "helvetica neue";
+        font-size: 20px;
+        font-weight: 200;
+        border-left: 1px solid #d1e2ff;
+      }
+    </style>
+    <!--
+   The following is a common layout you would see in an email client.
+   When a user clicks a checkbox, holds Shift, and then clicks another checkbox a few rows down, all the checkboxes inbetween those two checkboxes should be checked.
+  -->
+    <div class="inbox">
+      <div class="item">
+        <input type="checkbox" />
+        <p>This is an inbox layout.</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Check one item</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Hold down your Shift key</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Check a lower item</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Everything in between should also be set to checked</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Try to do it without any libraries</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Just regular JavaScript</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Good Luck!</p>
+      </div>
+      <div class="item">
+        <input type="checkbox" />
+        <p>Don't forget to tweet your result!</p>
+      </div>
+    </div>
 
-      // Testing
-      const p = document.querySelector("p");
-      console.assert(p.classList.contains("ouch"), "That is wrong!");
+    <script>
+      const play = document.querySelectorAll(".item");
 
-      // clearing
-      // console.clear();
+      let isChecked = false;
 
-      // Viewing DOM Elements
-      console.log(p);
-      console.dir(p);
+      function check(e) {
+        console.log(e);
+      }
 
-      console.clear();
-
-      // Grouping together
-      dogs.forEach(dog => {
-        console.groupCollapsed(`${dog.name}`);
-        console.log(`This is ${dog.name}`);
-        console.log(`${dog.name} is ${dog.age} years old`);
-        console.groupEnd(`${dog.name}`);
+      play.addEventListener("mouseclick", e => {
+        isChecked = true;
       });
-
-      // counting
-
-      // timing
     </script>
   </body>
 </html>
