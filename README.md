@@ -12,7 +12,7 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [x] 04 - [Array Cardio Day 1](04-Array-Cardio-Day-1/index.html)
 - [x] 05 - [Flex Panel Gallery](05-Flex-Panel-Gallery/index.html)
 - [ ] 06 - Type Ahead
-- [ ] 07 - Array Cardio Day 2
+- [x] 07 - [Array Cardio Day 2](07-Array-Cardio-Day-2/index.html)
 - [ ] 08 - Fun with HTML5 Canvas
 - [ ] 09 - Dev Tools Domination
 - [ ] 10 - Hold Shift and Check Checkboxes
