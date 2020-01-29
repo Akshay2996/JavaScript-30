@@ -44,6 +44,7 @@ function scrub(e) {
   console.log(e);
   const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
   video.currentTime = scrubTime;
+
 }
 
 /* Hook up the Event Listeners*/
@@ -56,5 +57,5 @@ toggle.addEventListener("click", togglePlay);
 
 skipButtons.forEach(button => button.addEventListener("click", skip));
 ranges.forEach(range => range.addEventListener("change", handleRangeUpdate));
-
 progressBar.addEventListener("click", scrub);
+
