@@ -44,7 +44,6 @@ function scrub(e) {
   console.log(e);
   const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
   video.currentTime = scrubTime;
-
 }
 
 /* Hook up the Event Listeners*/
@@ -57,5 +56,22 @@ toggle.addEventListener("click", togglePlay);
 
 skipButtons.forEach(button => button.addEventListener("click", skip));
 ranges.forEach(range => range.addEventListener("change", handleRangeUpdate));
-progressBar.addEventListener("click", scrub);
 
+let mouseDown = false;
+progress.addEventListener("click", scrub);
+
+// Same code written as below
+/* progress.addEventListener("mousemove", e => {
+  if (mouseDown) {
+    scrub(e);
+  }
+});*/
+progress.addEventListener("mousemove", e => mouseDown && scrub(e));
+progress.addEventListener("mousedown", () => (mouseDown = true));
+progress.addEventListener("mouseup", () => (mouseDown = false));
+
+// Things to do on my own
+/*
+  Create Fullscreen button & on clicking it video goes fullscreen
+  Create an Eventlistener that pauses the video on pressing spacebar key
+*/
