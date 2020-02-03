@@ -13,8 +13,8 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [x] 05 - [Flex Panel Gallery](05-Flex-Panel-Gallery/index.html)
 - [ ] 06 - Type Ahead
 - [x] 07 - [Array Cardio Day 2](07-Array-Cardio-Day-2/index.html)
-- [ ] 08 - Fun with HTML5 Canvas
-- [ ] 09 - Dev Tools Domination
+- [x] 08 - [Fun with HTML5 Canvas](08-Fun-With-Html5-Canvas/index.html)
+- [x] 09 - [Dev Tools Domination](09-Dev-Tools-Tricks/index.html)
 - [ ] 10 - Hold Shift and Check Checkboxes
 - [ ] 11 - Custom Video Player
 - [ ] 12 - Key Sequence Detection
