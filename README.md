@@ -15,7 +15,7 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [x] 07 - [Array Cardio Day 2](07-Array-Cardio-Day-2/index.html)
 - [x] 08 - [Fun with HTML5 Canvas](08-Fun-With-Html5-Canvas/index.html)
 - [x] 09 - [Dev Tools Domination](09-Dev-Tools-Tricks/index.html)
-- [ ] 10 - Hold Shift and Check Checkboxes
+- [x] 10 - [Hold Shift and Check Checkboxes](10-Hold-Shift-And-Checkboxes/index.html)
 - [ ] 11 - Custom Video Player
 - [ ] 12 - Key Sequence Detection
 - [ ] 13 - Slide in on Scroll
