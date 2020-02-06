@@ -55,6 +55,22 @@
     <audio data-key="75" src="sounds/tom.wav"></audio>
     <audio data-key="76" src="sounds/tink.wav"></audio>
 
-    <script></script>
+    <script>
+      function listen(e) {
+        const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+        const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+        if (!audio) return; // stops the function from all together
+        audio.currentTime = 0; // rewind to the start
+        audio.play();
+        // JQuery Syntax
+        // key.addClass("playing");
+        key.classList.add("playing");
+        // setTimeout(function() {
+        //   key.classList.remove("playing");
+        // }, 0.07);
+      }
+
+      window.addEventListener("keydown", listen);
+    </script>
   </body>
 </html>
