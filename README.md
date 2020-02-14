@@ -6,7 +6,7 @@ This challenge is based purely on javascript and will improve the concepts of ja
 
 ## ToDo
 
-- [ ] 01 - JS Drum Kit
+- [x] 01 - [JS Drum Kit](01-JavaScript-Drum-Kit/index.html)
 - [x] 02 - [JS + CSS Clock](02-JS-CSS-Clock/index.html)
 - [x] 03 - [CSS Variables](03-CSS-Variables/index.html)
 - [x] 04 - [Array Cardio Day 1](04-Array-Cardio-Day-1/index.html)
@@ -16,20 +16,20 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [x] 08 - [Fun with HTML5 Canvas](08-Fun-With-Html5-Canvas/index.html)
 - [x] 09 - [Dev Tools Domination](09-Dev-Tools-Tricks/index.html)
 - [x] 10 - [Hold Shift and Check Checkboxes](10-Hold-Shift-And-Checkboxes/index.html)
-- [ ] 11 - Custom Video Player
-- [ ] 12 - Key Sequence Detection
-- [ ] 13 - Slide in on Scroll
-- [ ] 14 - JavaScript References vs Copying
+- [x] 11 - [Custom Video Player](11-Custom-Video-Player/index.html)
+- [x] 12 - [Key Sequence Detection](12-Key-Sequence-Detection/index.html)
+- [x] 13 - [Slide in on Scroll](13-Slide-In-On-Scroll/index.html)
+- [x] 14 - [JavaScript References vs Copying](14-References-VS-Copying/index.html)
 - [ ] 15 - LocalStorage
-- [ ] 16 - Mouse Move Shadow
-- [ ] 17 - Sort Without Articles
-- [ ] 18 - Adding Up Times with Reduce
+- [x] 16 - [Mouse Move Shadow](16-Mouse-Move-Shadow/index.html)
+- [x] 17 - [Sort Without Articles](17-Sort-Without-Articles/index.html)
+- [x] 18 - [Adding Up Times with Reduce](18-Adding-Up-Times-with-Reduce/index.html)
 - [ ] 19 - Webcam Fun
 - [ ] 20 - Speech Detection
 - [ ] 21 - Geolocation
-- [ ] 22 - Follow Along Link Highlighter
+- [x] 22 - [Follow Along Link Highlighter](22-Follow-Along-Link-Highlighter/index.html)
 - [ ] 23 - Speech Synthesis
-- [ ] 24 - Sticky Nav
+- [x] 24 - [Sticky Nav](24-Sticky-Nav/index.html)
 - [ ] 25 - Event Capture, Propogation, Bubbling and Once
 - [ ] 26 - Stripe Follow Along Nav
 - [ ] 27 - Click and Drag
