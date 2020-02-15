@@ -30,7 +30,7 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [x] 22 - [Follow Along Link Highlighter](22-Follow-Along-Link-Highlighter/index.html)
 - [ ] 23 - Speech Synthesis
 - [x] 24 - [Sticky Nav](24-Sticky-Nav/index.html)
-- [ ] 25 - Event Capture, Propogation, Bubbling and Once
+- [x] 25 - [Event Capture, Propogation, Bubbling and Once](25-EventListenerProperties/index.html)
 - [ ] 26 - Stripe Follow Along Nav
 - [ ] 27 - Click and Drag
 - [ ] 28 - Video Speed Controller
