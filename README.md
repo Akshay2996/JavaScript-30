@@ -35,4 +35,4 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [ ] 27 - Click and Drag
 - [ ] 28 - Video Speed Controller
 - [ ] 29 - Countdown Timer
-- [ ] 30 - Whack A Mole
+- [x] 30 - [Whack A Mole](30-Whack-A-Mole/index.html)
