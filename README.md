@@ -31,8 +31,8 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [ ] 23 - Speech Synthesis
 - [x] 24 - [Sticky Nav](24-Sticky-Nav/index.html)
 - [x] 25 - [Event Capture, Propogation, Bubbling and Once](25-EventListenerProperties/index.html)
-- [ ] 26 - Stripe Follow Along Nav
-- [ ] 27 - Click and Drag
-- [ ] 28 - Video Speed Controller
+- [x] 26 - [Stripe Follow Along Nav](26-Stripe-Follow-Along-Nav/index.html)
+- [x] 27 - [Click and Drag](27-Click-and-Drag/index.html)
+- [x] 28 - [Video Speed Controller](28-Video-Speed-Controller/index.html)
 - [ ] 29 - Countdown Timer
 - [x] 30 - [Whack A Mole](30-Whack-A-Mole/index.html)
