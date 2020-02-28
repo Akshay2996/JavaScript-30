@@ -20,7 +20,7 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [x] 12 - [Key Sequence Detection](12-Key-Sequence-Detection/index.html)
 - [x] 13 - [Slide in on Scroll](13-Slide-In-On-Scroll/index.html)
 - [x] 14 - [JavaScript References vs Copying](14-References-VS-Copying/index.html)
-- [ ] 15 - LocalStorage
+- [x] 15 - [LocalStorage](15-Local-Storage/index.html)
 - [x] 16 - [Mouse Move Shadow](16-Mouse-Move-Shadow/index.html)
 - [x] 17 - [Sort Without Articles](17-Sort-Without-Articles/index.html)
 - [x] 18 - [Adding Up Times with Reduce](18-Adding-Up-Times-with-Reduce/index.html)
