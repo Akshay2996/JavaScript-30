@@ -34,5 +34,5 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [x] 26 - [Stripe Follow Along Nav](26-Stripe-Follow-Along-Nav/index.html)
 - [x] 27 - [Click and Drag](27-Click-and-Drag/index.html)
 - [x] 28 - [Video Speed Controller](28-Video-Speed-Controller/index.html)
-- [ ] 29 - Countdown Timer
+- [x] 29 - [Countdown Timer](29-Countdown-Timer/index.html)
 - [x] 30 - [Whack A Mole](30-Whack-A-Mole/index.html)
