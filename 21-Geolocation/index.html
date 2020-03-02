@@ -95,6 +95,28 @@
       }
       /*Compass: https://thenounproject.com/search/?q=compass&i=592352*/
     </style>
-    <script></script>
+    <script>
+      const arrow = document.querySelector(".arrow");
+      const speed = document.querySelector(".speed-value");
+
+      // success callback
+      navigator.geolocation.watchPosition(
+        data => {
+          console.log(data);
+          // if (data.coords.speed === null) {
+          //   speed.textContent = 0;
+          // } else {
+          //   speed.textContent = data.coords.speed;
+          // }
+          speed.textContent =
+            data.coords.speed === null ? 0 : data.coords.speed; //ternary operator
+          arrow.style.transform = `rotate(${data.coords.heading}deg)`;
+        },
+        err => {
+          console.error(err);
+          alert("Hey! You got to allow that to happen!!!");
+        }
+      );
+    </script>
   </body>
 </html>
