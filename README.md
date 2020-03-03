@@ -26,7 +26,7 @@ This challenge is based purely on javascript and will improve the concepts of ja
 - [x] 18 - [Adding Up Times with Reduce](18-Adding-Up-Times-with-Reduce/index.html)
 - [ ] 19 - Webcam Fun
 - [ ] 20 - Speech Detection
-- [ ] 21 - Geolocation
+- [x] 21 - [Geolocation](21-Geolocation/index.html)
 - [x] 22 - [Follow Along Link Highlighter](22-Follow-Along-Link-Highlighter/index.html)
 - [ ] 23 - Speech Synthesis
 - [x] 24 - [Sticky Nav](24-Sticky-Nav/index.html)
