@@ -2,9 +2,13 @@
 
 #### Made By [@wesbos](https://github.com/wesbos)
 
-This challenge is based purely on javascript and will improve the concepts of javascript by making 30 mini-projects in 30 days.
+⚡No FrameWorks ⚡No Libraries ⚡No Compilers ⚡No Boilerplate
 
-## ToDo
+<hr />
+
+This challenge is based purely on plain old vanilla javascript with ES6 features included, and will improve the concepts of javascript by making 30 small projects in 30 days.
+
+## Tables of Contents
 
 - [x] 01 - [JS Drum Kit](01-JavaScript-Drum-Kit/index.html)
 - [x] 02 - [JS + CSS Clock](02-JS-CSS-Clock/index.html)
