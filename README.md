@@ -8,8 +8,6 @@
 
 This challenge is based purely on plain old vanilla javascript with ES6 features included, and will improve the concepts of javascript by making 30 small projects in 30 days.
 
-**To see the visual representation** [click here](https://akshay2996.github.io/JavaScript-30/)
-
 ## Tables of Contents
 
 - [x] 01 - [JS Drum Kit](01-JavaScript-Drum-Kit/index.html)
