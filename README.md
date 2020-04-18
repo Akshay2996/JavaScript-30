@@ -29,7 +29,7 @@ This challenge is based purely on plain old vanilla javascript with ES6 features
 - [x] 17 - [Sort Without Articles](17-Sort-Without-Articles/index.html)
 - [x] 18 - [Adding Up Times with Reduce](18-Adding-Up-Times-with-Reduce/index.html)
 - [x] 19 - [Webcam Fun](19-Webcam-Fun/index.html) (Not working in my browser)
-- [ ] 20 - Speech Detection
+- [x] 20 - [Speech Detection](20-Speech-Detection/index.html)
 - [x] 21 - [Geolocation](21-Geolocation/index.html)
 - [x] 22 - [Follow Along Link Highlighter](22-Follow-Along-Link-Highlighter/index.html)
 - [ ] 23 - Speech Synthesis
