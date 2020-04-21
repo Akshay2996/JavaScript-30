@@ -32,7 +32,7 @@ This challenge is based purely on plain old vanilla javascript with ES6 features
 - [x] 20 - [Speech Detection](20-Speech-Detection/index.html)
 - [x] 21 - [Geolocation](21-Geolocation/index.html)
 - [x] 22 - [Follow Along Link Highlighter](22-Follow-Along-Link-Highlighter/index.html)
-- [ ] 23 - Speech Synthesis
+- [x] 23 - [Speech Synthesis](23-Speech-Synthesis/index.html)
 - [x] 24 - [Sticky Nav](24-Sticky-Nav/index.html)
 - [x] 25 - [Event Capture, Propogation, Bubbling and Once](25-EventListenerProperties/index.html)
 - [x] 26 - [Stripe Follow Along Nav](26-Stripe-Follow-Along-Nav/index.html)
