@@ -28,7 +28,7 @@ This challenge is based purely on plain old vanilla javascript with ES6 features
 - [x] 16 - [Mouse Move Shadow](https://akshay2996.github.io/JavaScript-30/16-Mouse-Move-Shadow/index.html)
 - [x] 17 - [Sort Without Articles](https://akshay2996.github.io/JavaScript-30/17-Sort-Without-Articles/index.html)
 - [x] 18 - [Adding Up Times with Reduce](18-Adding-Up-Times-with-Reduce/index.html)
-- [x] 19 - [Webcam Fun](https://akshay2996.github.io/JavaScript-30/19-Webcam-Fun/index.html) (Not working in my browser)
+- [x] 19 - [Webcam Fun](https://akshay2996.github.io/JavaScript-30/19-Webcam-Fun/index.html)
 - [x] 20 - [Speech Detection](https://akshay2996.github.io/JavaScript-30/20-Speech-Detection/index.html)
 - [x] 21 - [Geolocation](https://akshay2996.github.io/JavaScript-30/21-Geolocation/index.html)
 - [x] 22 - [Follow Along Link Highlighter](https://akshay2996.github.io/JavaScript-30/22-Follow-Along-Link-Highlighter/index.html)
