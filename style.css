@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Bellota:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #CBCED9;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 98vw;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #6E7693;
+}
+
+body::-webkit-scrollbar-track {
+  background: #CBCED9;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* JavaScript 30 */
+
+.heading {
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-family: "Allura", cursive;
+  font-size: 4.5rem;
+  color: #1c1d1c;
+}
+
+.subheading {
+  font-family: monospace;
+  text-align: center;
+}
+
+/* Button */
+
+.github {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.button {
+  position: relative;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  color: #0d0e0d;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: rgb(255 255 255 / 50%);
+  text-decoration: none;
+  border-color: rgb(255 255 255 / 40%);
+  border-radius: 0.5rem;
+  border-style: solid;
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s;
+}
+
+.button:hover {
+  background-color: rgb(255 255 255 / 100%);
+  border-color: rgb(255 255 255 / 80%);
+  color: #181918;
+}
+
+.button:active {
+  top: 3px;
+}
+
+/* Cards - Grid Container */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 2.5rem;
+  width: 85vw;
+  visibility: hidden;
+}
+
+.container > * {
+  visibility: visible;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.container:hover > * {
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+.container:hover > *:hover {
+  opacity: 1;
+  transform: scale(1.08);
+  transition-delay: 0ms, 0ms;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: transparent;
+  font-size: 2.5rem;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* object-fit: cover; */
+}
+
+.project-name {
+  text-align: center;
+  font-size: 2rem;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+/* Footer */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Bellota", cursive;
+  font-size: 1.3rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.social {
+  margin: 10px 0;
+}
+
+.social a {
+  margin: 20px 10px;
+}
+
+.fa-twitter {
+  color: #0a73b3;
+  transition: all 0.3s ease-out;
+}
+
+.fa-twitter:hover {
+  transform: scale(1.15);
+}
+
+.fa-meteor {
+  color: #1da3d8;
+  transition: all 0.3s ease-out;
+}
+
+.fa-meteor:hover {
+  transform: scale(1.15);
+}
+
+.fa-instagram {
+  color: #bf1c53;
+  transition: all 0.3s ease-out;
+}
+
+.fa-instagram:hover {
+  transform: scale(1.15);
+}
