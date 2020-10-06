@@ -1,8 +1,7 @@
 const images = document.querySelectorAll('img');
 
-let imageOptions = {};
-
-let observer = new IntersectionObserver((entries, observer) => {
+const lazyLoad = target => {
+const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         console.log("😁");
         if(entry.isIntersecting){
@@ -14,8 +13,9 @@ let observer = new IntersectionObserver((entries, observer) => {
             observer.disconnect();
         }
     });
-}, imageOptions);
-
-images.forEach(image => {
-    observer.observe(image);
 });
+
+observer.observe(target);
+};
+
+images.forEach(lazyLoad);
