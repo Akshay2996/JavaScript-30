@@ -125,6 +125,17 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   /* object-fit: cover; */
+
+  transform: translateY(20%);
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+
+/* Fade in Effect */
+.fade{
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.5s ease-in;
 }
 
 .project-name {
